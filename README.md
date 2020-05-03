@@ -26,3 +26,23 @@ If any of the substrings is not equal; break. If whole loop is executed ans: s.l
 Link to Solution: [the-cake-is-not-a-lie.java](https://github.com/AbhilashRath/Google_Foobar_Challenge_-Secret-Hiring-/blob/master/the_cake_is_not_a_lie)
 
 My Solution passed all testcases.
+
+## Level 2
+### Simplified Problem Statement
+Your are given a string of characters '>','-','<' where '>' denotes right soldier, '<' denotes left soldier and, '-' denotes hallway. If '<' passes '>' then they salute each other. Calculate the total number of salutes given a string. The string contains atleast one character.
+### Example Test Cases
+Input: "--->-><-><-->-"
+Output: 10
+
+Input: "<<>><"
+Output: 2
+
+Input: ">-----<"
+
+### My Approach
+Initialise 2 variables storing the number of right soldiers and number of salutes. If right soldier appears increments its count, else if left soldier appears increment salute count by double of right soldiers' count. 
+
+### Solution
+Link to Solution: [en-route-salute.java](https://github.com/AbhilashRath/Google_Foobar_Challenge_-Secret-Hiring-Challenge-/blob/master/en-route-salute.java)
+
+My Solution passed all the testcases.
